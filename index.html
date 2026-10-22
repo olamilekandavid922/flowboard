@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flowboard - Team productivity</title>
-    <link rel="stylesheet" href="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="fontawesome-free-7.3.1-web/fontawesome-free-7.3.1-web/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 
         <style>
         :root {
@@ -57,7 +57,7 @@
             color: var(--primary-dark);
         }
 
-        h1 { font-size: clamp(2.25rem, 5vw, 3.5rem); }
+        h1 { font-size: clamp(2.25rem, 5vw, 4.5rem); }
         h2 { font-size: clamp(1.75rem, 3.5vw, 2.5rem); }
         h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); }
 
@@ -114,7 +114,7 @@
             font-weight: 600;
             font-size: 1rem;
             padding: 0.75rem 1.75rem;
-            border-radius: 60px; /* pill */
+            border-radius: 60px; 
             transition: all 0.2s ease;
             cursor: pointer;
             border: 2px solid transparent;
@@ -589,7 +589,7 @@
         }
 
         .footer {
-            background: var(--surface);
+            background-color: #09021a;
             border-top: 1px solid var(--border-light);
             padding: var(--space-6) 0 var(--space-4);
             margin-top: var(--space-8);
@@ -693,6 +693,7 @@
             .logo-strip-inner { gap: var(--space-4); }
             .logo-item { font-size: 1.2rem; }
             .final-cta { padding: var(--space-6) var(--space-3); }
+            .h1 {font-size: 3.5rem;}
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -738,7 +739,7 @@
     <header class="hero">
         <div class="container">
             <div class="hero-content text-center" style="max-width: 800px; margin: 0 auto; padding: var(--space-6) 0;">
-                <h1 style="font-size: 4.5rem;">Team productivity, <span style="color: var(--accent);">simplified</span>.</h1>
+                <h1>Team productivity, <span style="color: var(--accent);">simplified</span>.</h1>
                 <p class="mx-auto" style="margin-bottom: var(--space-5); font-size: 1.25rem; color: black;">FlowBoard brings your tasks, docs, and conversations into one calm, focused workspace, so your team can ship faster without the chaos.</p>
                 <div class="hero-buttons" style="justify-content: center;">
                     <a href="#pricing" class="btn btn-primary">Start free trial <i class="fas fa-arrow-right" style="margin-left: 0.5rem;" aria-hidden="true"></i></a>
@@ -1036,7 +1037,7 @@
         </div>
     </footer>
 
-     <script src="bootstrap-5.3.8-dist/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         const hamburger = document.getElementById('hamburger');
